@@ -20,4 +20,4 @@ jobs:
 # Run Unit tests- Specify unit tests here 
 
 # sam deploy
-      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-hello-world --s3-bucket ${{ secrets.AWS_S3 }} --capabilities CAPABILITY_IAM --region ${{ secrets.AWS_REGION }}
+      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name metrics-track --s3-bucket ${{ secrets.AWS_S3 }} --capabilities CAPABILITY_IAM --region ${{ secrets.AWS_REGION }}
